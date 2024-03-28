@@ -1,0 +1,16 @@
+#projects {
+  padding-top: 150px;
+  margin-left: 10%;
+  color: #ffffff;
+}
+.TitleProjects {
+  font-size: 64px;
+}
+
+.CardShow {
+  margin-top: 96px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 100px;
+}

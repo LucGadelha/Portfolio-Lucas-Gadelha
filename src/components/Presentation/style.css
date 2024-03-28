@@ -1,0 +1,13 @@
+.Presentation {
+  margin-top: 7%;
+  margin-left: 15%;
+}
+.TitlePresentation {
+  color: aliceblue;
+  font-size: 64px;
+}
+.TextPresentation {
+  padding: 40px;
+  color: #bcbcbc;
+  font-size: 36px;
+}

@@ -1,0 +1,35 @@
+.CardProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 550px;
+  height: 650px;
+  border: 10px;
+  border-radius: 50px 0px 50px 0px;
+  box-shadow: 0px 0px 12px 0px #ffffff;
+}
+.ImgCardProjects {
+  margin-top: 4%;
+  margin-left: 25px;
+}
+
+#imagem {
+  width: 500px;
+  border-radius: 8px;
+}
+.name {
+  margin: 0px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.description {
+  margin: 0px;
+  padding: 25px;
+  text-align: left;
+  font-size: 20px;
+}
+.botao {
+  padding: 25px;
+}

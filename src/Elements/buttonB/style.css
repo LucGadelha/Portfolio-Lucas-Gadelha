@@ -1,0 +1,16 @@
+.ButtonB {
+  background: rgb(19, 173, 199);
+  background: linear-gradient(90deg, rgba(19, 173, 199, 1) 0%, rgba(105, 120, 209, 1) 50%, rgba(148, 93, 214, 1) 100%);
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 31px;
+  border-radius: 83px;
+  cursor: pointer;
+}
+
+.ButtonB:hover {
+  color: rgb(39, 35, 35);
+  transition: background-color
+    linear-gradient(90deg, rgba(148, 93, 214, 1) 0%, rgba(105, 120, 209, 1) 50%, rgba(19, 173, 199, 1) 100%);
+  transition-duration: 0.4s;
+}

@@ -1,0 +1,20 @@
+.Header {
+  height: 137px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+}
+.menuHeader {
+  font-size: 30px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-items: space-around;
+}
+.itemsMenuHeader {
+  padding-left: 90px;
+}
+.itemsIconHeader {
+  padding-left: 30px;
+}

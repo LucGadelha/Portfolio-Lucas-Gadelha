@@ -1,0 +1,116 @@
+.about {
+  color: #ffffff;
+  height: 600px;
+}
+
+.about--title {
+  margin-left: 10%;
+  margin-top: 100px;
+  font-size: 64px;
+}
+
+.about--timeLine {
+  margin: 100px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about--timeLineFirstCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-width: 300px;
+  height: auto;
+}
+
+.about--firstLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.about--firstLine::before {
+  position: absolute;
+  content: "";
+  height: 7px;
+  width: 50%;
+  right: 0;
+  background-color: #ffffff;
+  border: 10px;
+}
+
+.about--yearText {
+  font-size: 24px;
+}
+
+.about--timeLineCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-width: 300px;
+  height: auto;
+}
+
+.about--line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.about--line::before {
+  position: absolute;
+  content: "";
+  height: 7px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 10px;
+}
+
+.about--lineCircle {
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.about--timeLineDescription {
+  padding: 7px 10px;
+  text-align: center;
+}
+
+.about--timeLineLastCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-width: 300px;
+  height: auto;
+}
+
+.about--lastLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.about--lastLine::before {
+  position: absolute;
+  content: "";
+  height: 7px;
+  width: 50%;
+  left: 0;
+  background-color: #ffffff;
+  border: 10px;
+}
