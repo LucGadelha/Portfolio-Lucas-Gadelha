@@ -3,7 +3,7 @@ import "./style.css";
 
 const About = () => {
   return (
-    <div className="about poppins-medium" id="about">
+    <div className="about poppins-semibold" id="about">
       <h1 className="about--title">Sobre mim</h1>
       <div className="about--timeLine">
         <div className="about--timeLineFirstCard">

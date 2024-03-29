@@ -40,8 +40,8 @@ const Projects = () => {
 
   return (
     <div id="projects">
-      <h1 className=" TitleProjects poppins-medium">Projetos</h1>
-      <div className="CardShow">
+      <h1 className="projects--title poppins-semibold">Projetos</h1>
+      <div className="projects--cardShow">
         {project.length > 0 ? (
           project.map((proj) => (
             <Cards

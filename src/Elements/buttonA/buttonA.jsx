@@ -5,7 +5,7 @@ const ButtonA = ({ text, link }) => {
   return (
     <div>
       <a href={link}>
-        <button type="button" className="ButtonA poppins-medium">
+        <button type="button" className="buttonA poppins-semibold">
           {text}
         </button>
       </a>

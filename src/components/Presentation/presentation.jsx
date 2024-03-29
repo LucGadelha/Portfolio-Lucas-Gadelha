@@ -38,9 +38,9 @@ const Presentation = () => {
   };
 
   return (
-    <div className="Presentation poppins-medium">
-      <h1 className="TitlePresentation">Olá eu sou {text}</h1>
-      <h3 className="TextPresentation">
+    <div className="presentation poppins-semibold">
+      <h1 className="presentation--title">Olá eu sou {text}</h1>
+      <h3 className="presentation--text">
         Sou apaixonado pela área de informatica e minha paixao por computadores,
         <br /> fez com que eu chegasse onde estou, almejando o que desejo, ser um
         <br /> profissional reconhecido na área da tecnologia, e meus projetos serem

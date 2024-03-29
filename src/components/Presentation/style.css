@@ -1,12 +1,12 @@
-.Presentation {
+.presentation {
   margin-top: 7%;
   margin-left: 15%;
 }
-.TitlePresentation {
+.presentation--title {
   color: aliceblue;
   font-size: 64px;
 }
-.TextPresentation {
+.presentation--text {
   padding: 40px;
   color: #bcbcbc;
   font-size: 36px;

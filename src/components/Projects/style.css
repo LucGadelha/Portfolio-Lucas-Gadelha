@@ -3,11 +3,11 @@
   margin-left: 10%;
   color: #ffffff;
 }
-.TitleProjects {
+.projects--title {
   font-size: 64px;
 }
 
-.CardShow {
+.projects--cardShow {
   margin-top: 96px;
   display: flex;
   flex-flow: row wrap;

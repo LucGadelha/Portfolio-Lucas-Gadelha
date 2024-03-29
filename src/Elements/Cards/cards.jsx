@@ -5,12 +5,12 @@ import ButtonB from "../buttonB/buttonB";
 const Cards = ({ image, name, description, site }) => {
   return (
     <div>
-      <div className="CardProjects">
-        <div className="ImgCardProjects">
+      <div className="projects--card">
+        <div className="projects--cardImage">
           <img src={image} alt="erro" id="imagem" />
-          <h1 className="name poppins-medium">{name}</h1>
+          <h1 className="projects--cardName poppins-semibold">{name}</h1>
         </div>
-        <p className="description poppins-medium">{description}</p>
+        <p className="projects--cardDescription poppins-semibold">{description}</p>
 
         <div className="botao">
           <ButtonB text="clique aqui" link={site} />

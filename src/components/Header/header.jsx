@@ -5,24 +5,24 @@ import "./style.css";
 
 const Header = () => {
   return (
-    <div className="Header poppins-regular">
+    <div className="header poppins-medium">
       <div>
-        <ul className="menuHeader">
+        <ul className="header--menu">
           <a href="#projects">
-            <li className="itemsMenuHeader">Projetos</li>
+            <li className="header--menuItems">Projetos</li>
           </a>
-          <li className="itemsMenuHeader">Tecnologia</li>
+          <li className="header--menuItems">Tecnologia</li>
           <a href="#about">
-            <li className="itemsMenuHeader">Sobre mim</li>
+            <li className="header--menuItems">Sobre mim</li>
           </a>
         </ul>
       </div>
-      <div className="iconHeader">
+      <div className="header--icons">
         <a href="https://github.com/LucGadelha" target="_Blank">
-          <img className="itemsIconHeader" src={iconGitHub} alt="" />
+          <img className="header--iconsItem" src={iconGitHub} alt="" />
         </a>
         <a href="https://www.linkedin.com/in/lucas-gadelha/" target="_Blank">
-          <img className="itemsIconHeader" src={iconLinkedIn} alt="" />
+          <img className="header--iconsItem" src={iconLinkedIn} alt="" />
         </a>
       </div>
     </div>

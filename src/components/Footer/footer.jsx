@@ -6,7 +6,7 @@ import "./style.css";
 
 const Footer = () => {
   return (
-    <div className="footer poppins-regular">
+    <div className="footer poppins-medium">
       <div>
         <ul className="footer--menu">
           <li className="footer--itemsMenu poppins-medium">

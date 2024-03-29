@@ -1,20 +1,20 @@
-.Header {
+.header {
   height: 137px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: aliceblue;
 }
-.menuHeader {
+.header--menu {
   font-size: 30px;
   list-style: none;
   display: flex;
   align-items: center;
   justify-items: space-around;
 }
-.itemsMenuHeader {
+.header--menuItems {
   padding-left: 90px;
 }
-.itemsIconHeader {
+.header--iconsItem {
   padding-left: 30px;
 }
