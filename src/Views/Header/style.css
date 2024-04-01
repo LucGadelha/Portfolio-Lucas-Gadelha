@@ -1,0 +1,65 @@
+/* .header {
+  height: 137px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+}
+.header--menu {
+  font-size: 30px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-items: space-around;
+}
+.header--menuItems {
+  padding-left: 90px;
+}
+.header--iconsItem {
+  padding-left: 30px;
+} */
+
+.header {
+  height: 10vh; /* Altura relativa à altura da tela */
+  padding: 0 20px; /* Adicionando um pouco de espaço nas laterais */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+}
+
+.header--menu {
+  font-size: 24px; /* Reduzindo o tamanho da fonte para dispositivos menores */
+  list-style: none;
+  display: flex; /* Oculta o menu tradicional por padrão */
+}
+
+.header--menuItems {
+  margin-left: 80px;
+  padding: 9px 25px;
+  border-radius: 30px; /* Reduzindo o espaçamento entre os itens */
+}
+
+.header--menuItems:hover {
+  border-radius: 30px;
+  padding: 9px 25px;
+  color: #ffffff;
+  transition: 0.5s;
+  background: linear-gradient(90deg, rgba(19, 173, 199, 1) 0%, rgba(105, 120, 209, 1) 50%, rgba(148, 93, 214, 1) 100%);
+}
+
+.header--iconsItem {
+  width: 30px; /* Tornando o tamanho dos ícones responsivo */
+  height: auto;
+  margin-left: 10px; /* Adicionando um pouco de espaço entre os ícones */
+}
+
+/* Mostrar o menu de hambúrguer em telas menores */
+@media screen and (max-width: 768px) {
+  .header--menu {
+    display: flex;
+  }
+  .header--icons {
+    display: none; /* Ocultar os ícones de redes sociais em telas menores */
+  }
+}
