@@ -1,16 +1,29 @@
-# Project carried out with the following technologies: HTML, CSS, JavaScript, React + Vite
+## Project carried out with the following technologies: HTML, 
+CSS, JavaScript, React + Vite
 
 This project aims to demonstrate my current skills and publicize my specialties as well as projects carried out to date.
 
-# To run after cloning the project, install Vite: 
-
+## To run after cloning the project
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+ install Vite: 
+ 
+```bash
 npm install vite@5.2.7
+```
 
-website on Netlify: https://portfolio-2024-l.netlify.app
+website on Netlify: [Portfolio-Lucas-Gadelha](https://portfolio-2024-l.netlify.app)
 
 ############################
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
