@@ -1,10 +1,12 @@
-Projeto realizado com as teconologias: HTML, CSS, JavaScript, React + Vite
+# Project carried out with the following technologies: HTML, CSS, JavaScript, React + Vite
 
-Para execusão após clonagem do projeto instale o Vite: npm install vite@5.2.7
+This project aims to demonstrate my current skills and publicize my specialties as well as projects carried out to date.
 
-site na Netlify: https://portfolio-2024-l.netlify.app
+# To run after cloning the project, install Vite: 
 
+npm install vite@5.2.7
 
+website on Netlify: https://portfolio-2024-l.netlify.app
 
 ############################
 
